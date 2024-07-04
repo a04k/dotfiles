@@ -1,0 +1,40 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run the `open default settings` command
+// from the command palette or from `Zed` application menu.
+{
+  "assistant": {
+    "default_open_ai_model": "gpt-3.5-turbo",
+    "provider": {
+      "name": "openai",
+      "default_model": "gpt-3.5-turbo"
+    }
+  },
+  "theme": "Base16 Oxocarbon Dark",
+  "vim_mode": false,
+  "ui_font_size": 18,
+  "buffer_font_size": 17,
+  "autosave": {
+    "after_delay": {
+      "milliseconds": 250
+    }
+  },
+  "tab-size": "2",
+  "remove_trailing_whitespace_on_save": true,
+  "languages": {
+    "TypeScript": {
+      "code_actions_on_format": {
+        "source.organizeImports": true
+      }
+    },
+    "tsx": {
+      "code_actions_on_format": {
+        "source.organizeImports": true
+      }
+    }
+  }
+}
